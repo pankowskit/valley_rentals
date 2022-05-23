@@ -1,11 +1,15 @@
-import {Container} from "react-bootstrap";
+import React,{Component} from "react";
+import Container from "../../node_modules/react-bootstrap/Container";
+import LodgingsS1 from "../components/lodgings-s1";
 
-function Lodgings(){
-    return(
-        <Container fluid className="minh-footer-adj bg-dark d-flex align-items-center py-5">
-            
-        </Container>
-    );
+class Lodgings extends Component{
+    render(){
+        return(        
+            <Container fluid className="minh-footer-adj p-0">
+                <LodgingsS1/>
+            </Container>    
+        );
+    }
 }
 
 export default Lodgings;
