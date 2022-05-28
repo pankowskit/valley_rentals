@@ -11,7 +11,7 @@ class LodgingsS1 extends Component{
         return(    
             <Container fluid className="lodgings-s1 bg-secondary d-flex minh-100vh align-items-start py-5">
                 <Row className="mx-0 w-100 mt-5">
-                    <Col xs={12} sm={5} md={4} lg={3} className="pt-5">
+                    <Col xs={12} md={4} lg={3} className="pt-5">
                         <Card className="opacity-8">
                             <Card.Header className="bg-light">
                                 <Card.Title className="text-secondary float-start">

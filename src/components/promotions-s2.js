@@ -8,7 +8,7 @@ import Button from "../../node_modules/react-bootstrap/Button";
 class PromotionsS2 extends Component{
     render(){
         return(    
-            <Container fluid className="promotions-s2 d-flex minh-50vh bg-light align-items-center py-5">
+            <Container fluid className="promotions-s2 d-flex minh-50vh bg-light align-items-center py-5 border-top border-secondary">
                 <Row className="mx-0 w-100">
                     <Col xs={10} sm={8} lg={7} className="mx-auto">                        
                         <Card className="w-100 text-start mb-4">

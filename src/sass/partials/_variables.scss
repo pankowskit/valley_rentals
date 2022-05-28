@@ -1,13 +1,43 @@
-$prefix: "../img/";
-$footer__height: 53px;
-$img__comingsoon: $prefix+"comingsoon.jpg"; 
-$img__error: $prefix+"error.jpg"; 
-$img__privacy: $prefix+"privacy.jpg"; 
+$prefix: "../../img/";
+$bg__contact-img: 
+    $prefix+"contact/contact-s1.jpg",
+    $prefix+"contact/contact-s2.jpg";
+$bg__coming-img: $prefix+"comingsoon.jpg"; 
+$bg__destinations-img: 
+    $prefix+"destinations/destinations-s1.jpg",
+    $prefix+"destinations/destinations-s2.jpg",
+    $prefix+"destinations/destinations-s3.jpg";
+$bg__error-img: $prefix+"error.jpg"; 
+$bg__gallery-img: 
+    $prefix+"gallery/gallery-s1.jpg",
+    $prefix+"gallery/gallery-s2.jpg";
+$bg__index-img: $prefix+"index/index-s1.jpg";
+$bg__lodgings-img: $prefix+"lodgings/lodgings-s1.jpg";
+$bg__privacy-img: $prefix+"privacy.jpg";
+$bg__promotions-img: 
+    $prefix+"promotions/promotions-s1.jpg",
+    "",
+    $prefix+"promotions/promotions-s3.jpg";
 $section__classes:
+    "contact",
     "comingsoon",
+    "destinations",
     "error",
-    "privacy";
+    "gallery",
+    "index",
+    "lodgings",
+    "privacy",
+    "promotions";
 $section__images:
-    $img__comingsoon,
-    $img__error,
-    $img__privacy;
+    $bg__contact-img,
+    $bg__coming-img,
+    $bg__destinations-img,
+    $bg__error-img,
+    $bg__gallery-img,
+    $bg__index-img,
+    $bg__lodgings-img,
+    $bg__privacy-img,
+    $bg__promotions-img;
+$color__shadow: #333;
+$footer__height: 41px;
+$text-shadow: 1px 1px 3px $color__shadow; 
